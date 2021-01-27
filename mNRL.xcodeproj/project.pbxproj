@@ -3,18 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		193E586625C10C8900A894CD /* TeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E586525C10C8900A894CD /* TeamView.swift */; };
+		193E587025C10CD800A894CD /* LadderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E586F25C10CD800A894CD /* LadderView.swift */; };
+		193E587625C10CE300A894CD /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E587525C10CE300A894CD /* NewsView.swift */; };
+		193E588A25C10D9F00A894CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E588925C10D9F00A894CD /* ContentView.swift */; };
 		194952BF25B657B800722B49 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194952BE25B657B800722B49 /* Tests_iOS.swift */; };
 		194952CA25B657B900722B49 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194952C925B657B900722B49 /* Tests_macOS.swift */; };
 		194952CC25B657B900722B49 /* mNRLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194952A325B657B500722B49 /* mNRLApp.swift */; };
 		194952CD25B657B900722B49 /* mNRLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194952A325B657B500722B49 /* mNRLApp.swift */; };
-		194952CE25B657B900722B49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194952A425B657B500722B49 /* ContentView.swift */; };
-		194952CF25B657B900722B49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194952A425B657B500722B49 /* ContentView.swift */; };
 		194952D025B657B900722B49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 194952A525B657B800722B49 /* Assets.xcassets */; };
 		194952D125B657B900722B49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 194952A525B657B800722B49 /* Assets.xcassets */; };
+		194952EE25B664AE00722B49 /* TeamList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194952ED25B664AE00722B49 /* TeamList.swift */; };
+		1949532C25B6DA6300722B49 /* DrawData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1949532B25B6DA6300722B49 /* DrawData.swift */; };
+		194953A225B7E7D300722B49 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194953A125B7E7D300722B49 /* DrawView.swift */; };
+		194953A825B7E7F700722B49 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194953A725B7E7F700722B49 /* Helpers.swift */; };
+		19A048C125C136F300EA015C /* NewsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A048C025C136F300EA015C /* NewsData.swift */; };
+		19A048D425C1405F00EA015C /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 19A048D325C1405F00EA015C /* SDWebImageSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		193E586525C10C8900A894CD /* TeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamView.swift; sourceTree = "<group>"; };
+		193E586F25C10CD800A894CD /* LadderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LadderView.swift; sourceTree = "<group>"; };
+		193E587525C10CE300A894CD /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		193E588925C10D9F00A894CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		194952A325B657B500722B49 /* mNRLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mNRLApp.swift; sourceTree = "<group>"; };
-		194952A425B657B500722B49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		194952A525B657B800722B49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		194952AA25B657B800722B49 /* mNRL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mNRL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		194952AD25B657B800722B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +60,11 @@
 		194952C525B657B900722B49 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		194952C925B657B900722B49 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		194952CB25B657B900722B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		194952ED25B664AE00722B49 /* TeamList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamList.swift; sourceTree = "<group>"; };
+		1949532B25B6DA6300722B49 /* DrawData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawData.swift; sourceTree = "<group>"; };
+		194953A125B7E7D300722B49 /* DrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		194953A725B7E7F700722B49 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		19A048C025C136F300EA015C /* NewsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19A048D425C1405F00EA015C /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +100,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		193E586025C10C6B00A894CD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				193E588925C10D9F00A894CD /* ContentView.swift */,
+				194953A125B7E7D300722B49 /* DrawView.swift */,
+				193E586525C10C8900A894CD /* TeamView.swift */,
+				193E586F25C10CD800A894CD /* LadderView.swift */,
+				193E587525C10CE300A894CD /* NewsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		1949529D25B657B500722B49 = {
 			isa = PBXGroup;
 			children = (
@@ -99,7 +128,9 @@
 			isa = PBXGroup;
 			children = (
 				194952A325B657B500722B49 /* mNRLApp.swift */,
-				194952A425B657B500722B49 /* ContentView.swift */,
+				194953A725B7E7F700722B49 /* Helpers.swift */,
+				193E586025C10C6B00A894CD /* View */,
+				194952EC25B664A100722B49 /* Model */,
 				194952A525B657B800722B49 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -151,6 +182,16 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		194952EC25B664A100722B49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				194952ED25B664AE00722B49 /* TeamList.swift */,
+				1949532B25B6DA6300722B49 /* DrawData.swift */,
+				19A048C025C136F300EA015C /* NewsData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,6 +208,9 @@
 			dependencies = (
 			);
 			name = "mNRL (iOS)";
+			packageProductDependencies = (
+				19A048D325C1405F00EA015C /* SDWebImageSwiftUI */,
+			);
 			productName = "mNRL (iOS)";
 			productReference = 194952AA25B657B800722B49 /* mNRL.app */;
 			productType = "com.apple.product-type.application";
@@ -258,6 +302,9 @@
 				Base,
 			);
 			mainGroup = 1949529D25B657B500722B49;
+			packageReferences = (
+				19A048D225C1405F00EA015C /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 194952AB25B657B800722B49 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -308,8 +355,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				194952CE25B657B900722B49 /* ContentView.swift in Sources */,
+				194953A825B7E7F700722B49 /* Helpers.swift in Sources */,
+				193E587625C10CE300A894CD /* NewsView.swift in Sources */,
+				193E587025C10CD800A894CD /* LadderView.swift in Sources */,
+				194953A225B7E7D300722B49 /* DrawView.swift in Sources */,
+				19A048C125C136F300EA015C /* NewsData.swift in Sources */,
 				194952CC25B657B900722B49 /* mNRLApp.swift in Sources */,
+				193E588A25C10D9F00A894CD /* ContentView.swift in Sources */,
+				1949532C25B6DA6300722B49 /* DrawData.swift in Sources */,
+				193E586625C10C8900A894CD /* TeamView.swift in Sources */,
+				194952EE25B664AE00722B49 /* TeamList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,7 +372,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				194952CF25B657B900722B49 /* ContentView.swift in Sources */,
 				194952CD25B657B900722B49 /* mNRLApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,7 +536,7 @@
 				PRODUCT_NAME = mNRL;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -503,7 +557,7 @@
 				PRODUCT_NAME = mNRL;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -686,6 +740,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		19A048D225C1405F00EA015C /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		19A048D325C1405F00EA015C /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 19A048D225C1405F00EA015C /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1949529E25B657B500722B49 /* Project object */;
 }
