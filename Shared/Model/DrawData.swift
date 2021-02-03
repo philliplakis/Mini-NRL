@@ -28,7 +28,14 @@ var DrawArray = [
     Game(Round: 1, HomeTeam: "raiders", AwayTeam: "wests", Time: "2021-03-14T05:00:00.000Z", Ground: "GIO Stadium, Canberra"),
     Game(Round: 1, HomeTeam: "dragons", AwayTeam: "sharks", Time: "2021-03-14T07:15:00.000Z", Ground: "Netstrata Jubilee Stadium, Sydney"),
 
-    Game(Round: 2, HomeTeam: "manly", AwayTeam: "rabbitohs", Time: "2021-03-20T08:30:00.000Z", Ground: "Lottoland, Sydney"),
+    Game(Round: 2, HomeTeam: "eels", AwayTeam: "storm", Time: "2021-03-11T09:00:00.000Z", Ground: "Bankwest Stadium, Sydney"),
+    Game(Round: 2, HomeTeam: "warriors", AwayTeam: "knights", Time: "2021-03-12T07:00:00.000Z", Ground: "Central Coast Stadium, Central Coast"),
+    Game(Round: 2, HomeTeam: "titans", AwayTeam: "broncos", Time: "2021-03-12T09:00:00.000Z", Ground: "Cbus Super Stadium, Gold Coas"),
+    Game(Round: 2, HomeTeam: "bulldogs", AwayTeam: "panthers", Time: "2021-03-13T04:00:00.000Z", Ground: "Bankwest Stadium, Sydney"),
+    Game(Round: 2, HomeTeam: "manly", AwayTeam: "rabbitohs", Time: "2021-03-13T06:30:00.000Z", Ground: "Lottoland, Sydney"),
+    Game(Round: 2, HomeTeam: "cowboys", AwayTeam: "dragons", Time: "2021-03-13T09:30:00.000Z", Ground: "Queensland Country Bank Stadium, Townsville"),
+    Game(Round: 2, HomeTeam: "wests", AwayTeam: "roosters", Time: "2021-03-14T05:00:00.000Z", Ground: "Campbelltown Sports Stadium, Sydney"),
+    Game(Round: 2, HomeTeam: "sharks", AwayTeam: "raiders", Time: "2021-03-14T07:15:00.000Z", Ground: "Netstrata Jubilee Stadium, Sydney"),
     
     Game(Round: 3, HomeTeam: "broncos", AwayTeam: "titans", Time: "2021-03-14T04:30:00.000Z", Ground: "Brisbane"),
 ]

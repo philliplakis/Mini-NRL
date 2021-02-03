@@ -33,7 +33,7 @@ struct LadderView: View {
             ) {
                 LadderHeadingView()
             }
-
+            Divider()
             ScrollView(showsIndicators: false) {
                 LazyVGrid(
                     columns: columns,
